@@ -8,7 +8,7 @@ const sendEmail = require('../utils/sendEmail');
 exports.newOrder = asyncErrorHandler(async (req, res, next) => {
 
     const {
-        shippingInfo,
+        shippingInfo, 
         orderItems,
         paymentInfo,
         totalPrice,
