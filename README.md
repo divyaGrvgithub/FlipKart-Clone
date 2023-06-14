@@ -1,7 +1,4 @@
 # Flipkart-MERN
-Full-Stack Flipkart with Admin Dashboard & Paytm Payment Gateway.
-
-[Visit Now](https://flipkartwebs.herokuapp.com/) 🚀
 
 ## 🖥️ Tech Stack
 **Frontend:**
