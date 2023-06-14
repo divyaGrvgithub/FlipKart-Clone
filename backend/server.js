@@ -8,7 +8,7 @@ process.on('uncaughtException', (err) => {
     console.log(`Error: ${err.message}`);  
     process.exit(1);  
 });  
-  
+   
 connectDatabase();  
   
 cloudinary.config({  

@@ -5,7 +5,7 @@ const paymentSchema = new mongoose.Schema({
         resultStatus: {
             type: String,
             required: true 
-        },
+        }, 
         resultCode: {
             type: String,
             required: true

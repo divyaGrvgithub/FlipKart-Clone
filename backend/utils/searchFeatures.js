@@ -9,7 +9,7 @@ class SearchFeatures {
             name: { 
                 $regex: this.queryString.keyword,
                 $options: "i",
-            }
+            } 
         } : {}; 
 
         // console.log(keyword);
