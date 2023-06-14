@@ -7,7 +7,7 @@ import { Link } from 'react-router-dom';
 
 const CartItem = ({ product, name, seller, price, cuttedPrice, image, stock, quantity, inCart }) => {
 
-    const dispatch = useDispatch();
+    const dispatch = useDispatch(); 
     const { enqueueSnackbar } = useSnackbar();
 
     const increaseQuantity = (id, quantity, stock) => {

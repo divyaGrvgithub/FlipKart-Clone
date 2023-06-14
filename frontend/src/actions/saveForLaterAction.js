@@ -6,7 +6,7 @@ export const saveForLater = (id) => async (dispatch, getState) => {
     const cartItemsArr = getState().cart.cartItems;
     const product = cartItemsArr.find((i) => i.product === id) 
 
-    dispatch({
+    dispatch({ 
         type: SAVE_FOR_LATER,
         payload: product
     });

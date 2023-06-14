@@ -6,7 +6,7 @@ import Loader from '../Layouts/Loader';
 import MinCategory from '../Layouts/MinCategory';
 import MetaData from '../Layouts/MetaData'; 
 
-const Account = () => {
+const Account = () => { 
 
     const navigate = useNavigate();
 

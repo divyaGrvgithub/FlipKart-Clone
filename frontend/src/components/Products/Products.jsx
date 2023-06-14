@@ -9,7 +9,7 @@ import { useState, useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { useParams } from 'react-router-dom';
 import { clearErrors, getProducts } from '../../actions/productAction';
-import Loader from '../Layouts/Loader';
+import Loader from '../Layouts/Loader'; 
 import MinCategory from '../Layouts/MinCategory';
 import Product from './Product';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';

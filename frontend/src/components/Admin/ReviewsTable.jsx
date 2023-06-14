@@ -8,7 +8,7 @@ import Actions from './Actions';
 import { DELETE_REVIEW_RESET } from '../../constants/productConstants';
 import MetaData from '../Layouts/MetaData';
 import BackdropLoader from '../Layouts/BackdropLoader';
-
+ 
 const ReviewsTable = () => {
 
     const dispatch = useDispatch();

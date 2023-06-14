@@ -4,7 +4,7 @@ export const newOrderReducer = (state = {}, { type, payload }) => {
     switch (type) {
         case NEW_ORDER_REQUEST:
             return {
-                ...state,
+                ...state, 
                 loading: true,
             }; 
         case NEW_ORDER_SUCCESS:

@@ -8,7 +8,7 @@ import BackdropLoader from '../Layouts/BackdropLoader';
 import MetaData from '../Layouts/MetaData';
 import FormSidebar from './FormSidebar';
 
-const ForgotPassword = () => {
+const ForgotPassword = () => { 
 
     const dispatch = useDispatch();
     const { enqueueSnackbar } = useSnackbar();

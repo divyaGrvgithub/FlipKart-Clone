@@ -6,6 +6,6 @@
     background-color: #1f2937;
 }
    
-.sidebar::-webkit-scrollbar-thumb {
+.sidebar::-webkit-scrollbar-thumb { 
     background-color: #4b5563;
 }

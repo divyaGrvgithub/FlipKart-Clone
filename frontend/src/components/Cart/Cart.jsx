@@ -6,7 +6,7 @@ import EmptyCart from './EmptyCart';
 import PriceSidebar from './PriceSidebar';
 import SaveForLaterItem from './SaveForLaterItem';
 
-const Cart = () => {
+const Cart = () => { 
 
     const navigate = useNavigate();
     const { cartItems } = useSelector((state) => state.cart);

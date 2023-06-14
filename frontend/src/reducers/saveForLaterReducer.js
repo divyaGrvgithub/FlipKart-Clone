@@ -5,7 +5,7 @@ export const saveForLaterReducer = (state = { saveForLaterItems: [] }, { type, p
         case SAVE_FOR_LATER:
             const item = payload;
             const isItemExist = state.saveForLaterItems.find((i) => i.product === item.product);
-            if (isItemExist) {
+            if (isItemExist) { 
                 return {
                     ...state,
                     saveForLaterItems: state.saveForLaterItems.map((i) => 

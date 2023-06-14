@@ -7,7 +7,7 @@ const Searchbar = () => {
     const [keyword, setKeyword] = useState("");
     const navigate = useNavigate();
 
-    const handleSubmit = (e) => {
+    const handleSubmit = (e) => { 
         e.preventDefault();
         if(keyword.trim()){
             navigate(`/products/${keyword}`)

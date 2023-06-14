@@ -8,7 +8,7 @@ import { UPDATE_PASSWORD_RESET } from '../../constants/userConstants';
 import BackdropLoader from '../Layouts/BackdropLoader';
 import MetaData from '../Layouts/MetaData';
 import FormSidebar from './FormSidebar'; 
-
+ 
 const UpdatePassword = () => {
 
     const dispatch = useDispatch();

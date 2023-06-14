@@ -7,7 +7,7 @@ import { clearErrors, getOrderDetails, updateOrder } from '../../actions/orderAc
 import { UPDATE_ORDER_RESET } from '../../constants/orderConstants';
 import { formatDate } from '../../utils/functions'; 
 import TrackStepper from '../Order/TrackStepper';
-import Loading from './Loading';
+import Loading from './Loading'; 
 import { Link } from 'react-router-dom';
 import ArrowBackIosIcon from '@mui/icons-material/ArrowBackIos';
 import MetaData from '../Layouts/MetaData';

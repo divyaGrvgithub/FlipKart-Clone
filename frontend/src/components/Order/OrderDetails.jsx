@@ -8,7 +8,7 @@ import TrackStepper from './TrackStepper';
 import MinCategory from '../Layouts/MinCategory';
 import MetaData from '../Layouts/MetaData';
 
-const OrderDetails = () => {
+const OrderDetails = () => {  
 
     const dispatch = useDispatch();
     const { enqueueSnackbar } = useSnackbar();

@@ -7,7 +7,7 @@ import { useSnackbar } from 'notistack';
 import BackdropLoader from '../Layouts/BackdropLoader';
 import MetaData from '../Layouts/MetaData';
 import FormSidebar from './FormSidebar'; 
-
+ 
 const ResetPassword = () => {
 
   const dispatch = useDispatch();

@@ -6,7 +6,7 @@ export const categories = [
     "Fashion",
     "Appliances",
     "Home",
-]; 
+];  
 
 // Product Sliders Offers
 export const offerProducts = [

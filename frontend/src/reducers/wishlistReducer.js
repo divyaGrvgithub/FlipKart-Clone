@@ -7,7 +7,7 @@ export const wishlistReducer = (state = { wishlistItems: [] }, { type, payload }
             const itemExist = state.wishlistItems.find((i) => i.product === item.product);
 
             if (itemExist) {
-                return {
+                return { 
                     ...state,
                     wishlistItems: state.wishlistItems.map((i) =>
                         i.product === itemExist.product ? item : i

@@ -6,7 +6,7 @@ import { getDiscount } from '../../utils/functions';
 
 const SaveForLaterItem = ({ product, name, seller, price, cuttedPrice, image, stock, quantity }) => {
  
-    const dispatch = useDispatch();
+    const dispatch = useDispatch(); 
     const { enqueueSnackbar } = useSnackbar();
 
     const removeFromSaveForLaterHandler = (id) => {

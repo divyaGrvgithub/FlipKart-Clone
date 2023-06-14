@@ -9,7 +9,7 @@ const Product = ({ image, name, offer, tag }) => {
             <h2 className="font-medium text-sm mt-2">{name}</h2>
             <span className="text-primary-green text-sm">{offer}</span>
             <span className="text-gray-500 text-sm">{tag}</span>
-        </Link>
+        </Link> 
     );
 };
 

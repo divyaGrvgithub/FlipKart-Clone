@@ -7,7 +7,7 @@ import { useSnackbar } from 'notistack';
 import BackdropLoader from '../Layouts/BackdropLoader';
 import MetaData from '../Layouts/MetaData'; 
 
-const Login = () => {
+const Login = () => { 
 
     const dispatch = useDispatch();
     const navigate = useNavigate();

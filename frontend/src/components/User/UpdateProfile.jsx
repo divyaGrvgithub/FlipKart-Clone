@@ -8,7 +8,7 @@ import { clearErrors, loadUser, updateProfile } from '../../actions/userAction';
 import { UPDATE_PROFILE_RESET } from '../../constants/userConstants';
 import BackdropLoader from '../Layouts/BackdropLoader'; 
 import MetaData from '../Layouts/MetaData';
-
+ 
 const UpdateProfile = () => {
 
     const dispatch = useDispatch();

@@ -9,7 +9,7 @@ import { useSnackbar } from 'notistack';
 import MetaData from '../Layouts/MetaData';
 
 const Home = () => {
-
+ 
   const dispatch = useDispatch();
   const { enqueueSnackbar } = useSnackbar();
 

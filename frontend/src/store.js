@@ -8,7 +8,7 @@ import { saveForLaterReducer } from './reducers/saveForLaterReducer';
 import { allOrdersReducer, myOrdersReducer, newOrderReducer, orderDetailsReducer, orderReducer, paymentStatusReducer } from './reducers/orderReducer';
 import { wishlistReducer } from './reducers/wishlistReducer';
 
-const reducer = combineReducers({
+const reducer = combineReducers({ 
     user: userReducer,
     profile: profileReducer,
     forgotPassword: forgotPasswordReducer,

@@ -5,7 +5,7 @@ import TextField from '@mui/material/TextField';
 import MenuItem from '@mui/material/MenuItem';
 import { useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux'; 
-import PriceSidebar from './PriceSidebar';
+import PriceSidebar from './PriceSidebar'; 
 import Stepper from './Stepper';
 import { useSnackbar } from 'notistack';
 import { saveShippingInfo } from '../../actions/cartAction';

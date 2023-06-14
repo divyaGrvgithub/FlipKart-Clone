@@ -7,7 +7,7 @@ import { DELETE_USER_RESET } from '../../constants/userConstants';
 import Actions from './Actions';
 import MetaData from '../Layouts/MetaData';
 import BackdropLoader from '../Layouts/BackdropLoader'; 
-
+ 
 const UserTable = () => {
 
     const dispatch = useDispatch();

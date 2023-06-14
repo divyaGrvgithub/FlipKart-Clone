@@ -7,7 +7,7 @@ import paymentMethods from '../../../assets/images/payment-methods.svg';
 import { useLocation } from 'react-router-dom';
 
 const footerLinks = [
-  {
+  { 
     title: "about",
     links: [
       {

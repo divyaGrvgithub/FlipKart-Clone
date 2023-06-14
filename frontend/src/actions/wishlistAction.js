@@ -6,7 +6,7 @@ export const addToWishlist = (id) => async (dispatch, getState) => {
     const { data } = await axios.get(`/api/v1/product/${id}`);
 
     dispatch({ 
-        type: ADD_TO_WISHLIST,
+        type: ADD_TO_WISHLIST, 
         payload: {
             product: data.product._id,
             name: data.product.name,

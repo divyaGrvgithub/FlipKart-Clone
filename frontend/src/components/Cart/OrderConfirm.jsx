@@ -5,7 +5,7 @@ import Stepper from './Stepper';
 import { useNavigate } from 'react-router-dom';
 import MetaData from '../Layouts/MetaData'; 
 
-const OrderConfirm = () => {
+const OrderConfirm = () => { 
 
     const navigate = useNavigate();
     const { cartItems } = useSelector((state) => state.cart);

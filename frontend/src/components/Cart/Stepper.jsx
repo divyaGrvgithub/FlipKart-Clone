@@ -8,7 +8,7 @@ const Stepper = ({ activeStep, children }) => {
 
     const address = `${shippingInfo.address}, ${shippingInfo.city}, ${shippingInfo.state} - ${shippingInfo.pincode}`;
 
-    const steps = [
+    const steps = [ 
         {
             label: "LOGIN",
             desc: <p className="font-medium text-sm">{user.name} <span className="text-sm font-normal">{user.email}</span></p>

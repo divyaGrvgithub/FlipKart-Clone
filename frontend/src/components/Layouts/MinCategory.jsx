@@ -5,7 +5,7 @@ const categories = [
     "Electronics",
     "TVs & Appliances", 
     "Men",
-    "Women",
+    "Women", 
     "Baby & Kids",
     "Home & Furniture",
     "Sports, Books & More",

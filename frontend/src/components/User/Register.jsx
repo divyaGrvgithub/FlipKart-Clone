@@ -8,7 +8,7 @@ import { useSnackbar } from 'notistack';
 import { Link, useNavigate } from 'react-router-dom';
 import { useDispatch, useSelector } from 'react-redux';
 import { clearErrors, registerUser } from '../../actions/userAction';
-import BackdropLoader from '../Layouts/BackdropLoader';
+import BackdropLoader from '../Layouts/BackdropLoader'; 
 import MetaData from '../Layouts/MetaData';
 import FormSidebar from './FormSidebar';
 

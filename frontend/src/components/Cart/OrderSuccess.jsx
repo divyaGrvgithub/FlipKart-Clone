@@ -8,7 +8,7 @@ const OrderSuccess = ({ success }) => {
 
     const navigate = useNavigate();
     const [time, setTime] = useState(3);
-
+ 
     useEffect(() => {
         if (time === 0) {
             if (success) {

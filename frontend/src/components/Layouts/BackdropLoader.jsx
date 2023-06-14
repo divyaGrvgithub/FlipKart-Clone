@@ -9,7 +9,7 @@ const BackdropLoader = () => {
         >
             <CircularProgress color="inherit" />
         </Backdrop>
-    );
+    ); 
 };
 
 export default BackdropLoader;

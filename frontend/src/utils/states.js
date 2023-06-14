@@ -7,7 +7,7 @@ const states = [
       "code": "AP",
       "name": "Andhra Pradesh"
     },
-    {
+    { 
       "code": "AR",
       "name": "Arunachal Pradesh"
     }, 

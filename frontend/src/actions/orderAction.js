@@ -5,7 +5,7 @@ import { ALL_ORDERS_FAIL, ALL_ORDERS_REQUEST, ALL_ORDERS_SUCCESS, CLEAR_ERRORS, 
 export const newOrder = (order) => async (dispatch) => {
     try {
         dispatch({ type: NEW_ORDER_REQUEST });
-
+  
         const config = { 
             headers: {
                 "Content-Type": "application/json",

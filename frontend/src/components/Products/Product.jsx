@@ -7,7 +7,7 @@ import { addToWishlist, removeFromWishlist } from '../../actions/wishlistAction'
 import { useSnackbar } from 'notistack';
 
 const Product = ({ _id, name, images, ratings, numOfReviews, price, cuttedPrice }) => {
-
+ 
     const dispatch = useDispatch();
     const { enqueueSnackbar } = useSnackbar();
 

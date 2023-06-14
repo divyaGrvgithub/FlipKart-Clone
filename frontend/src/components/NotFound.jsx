@@ -7,7 +7,7 @@ const NotFound = () => {
             <img draggable="false" className="sm:w-1/3 h-full" src={notFound} alt="Page Not Found" />
             <Link to="/" className="px-4 py-2 bg-primary-blue rounded-sm uppercase shadow hover:shadow-lg text-white">Back To Home</Link>
         </div>
-    );
+    ); 
 };
 
 export default NotFound;

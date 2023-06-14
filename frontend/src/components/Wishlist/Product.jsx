@@ -8,7 +8,7 @@ import { useDispatch } from 'react-redux';
 const Product = (props) => {
 
     const { product, name, price, cuttedPrice, image, ratings, reviews } = props;
-
+ 
     const dispatch = useDispatch();
 
     const deleteHandler = () => {

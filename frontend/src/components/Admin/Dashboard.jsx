@@ -6,7 +6,7 @@ const Dashboard = ({ activeTab, children }) => {
 
     const [onMobile, setOnMobile] = useState(false);
     const [toggleSidebar, setToggleSidebar] = useState(false);
-
+ 
     useEffect(() => {
         if (window.innerWidth < 600) {
             setOnMobile(true);

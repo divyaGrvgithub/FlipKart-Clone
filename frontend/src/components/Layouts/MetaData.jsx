@@ -9,3 +9,4 @@ const MetaData = ({ title }) => {
 };
 
 export default MetaData;
+ 

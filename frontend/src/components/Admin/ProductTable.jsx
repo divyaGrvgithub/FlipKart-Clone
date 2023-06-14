@@ -8,7 +8,7 @@ import Rating from '@mui/material/Rating';
 import { DELETE_PRODUCT_RESET } from '../../constants/productConstants';
 import Actions from './Actions';
 import MetaData from '../Layouts/MetaData';
-import BackdropLoader from '../Layouts/BackdropLoader';
+import BackdropLoader from '../Layouts/BackdropLoader'; 
 
 const ProductTable = () => {
 

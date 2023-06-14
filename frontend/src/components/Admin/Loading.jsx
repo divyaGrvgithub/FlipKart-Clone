@@ -6,6 +6,6 @@ const Loading = () => {
             <CircularProgress />
         </div>
     );
-};
+}; 
 
 export default Loading;

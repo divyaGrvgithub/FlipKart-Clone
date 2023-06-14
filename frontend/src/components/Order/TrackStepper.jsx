@@ -8,7 +8,7 @@ const TrackStepper = ({ activeStep, orderOn, shippedAt, deliveredAt }) => {
         { 
             status: "Ordered",
             dt: formatDate(orderOn),
-        },
+        }, 
         {
             status: "Shipped",
             dt: formatDate(shippedAt),
