@@ -8,7 +8,7 @@ export const addToWishlist = (id) => async (dispatch, getState) => {
     dispatch({ 
         type: ADD_TO_WISHLIST, 
         payload: {
-            product: data.product._id,
+            product: data.product._id, 
             name: data.product.name,
             price: data.product.price,
             cuttedPrice: data.product.cuttedPrice,
