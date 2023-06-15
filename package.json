@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Full Stack Flipkart Ecommerce",
   "main": "backend/server.js",
-  "scripts": {
+  "scripts": { 
     "start": "node backend/server.js",
     "server": "nodemon backend/server.js",
     "frontend": "npm start --prefix frontend",
