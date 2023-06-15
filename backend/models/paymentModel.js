@@ -2,7 +2,7 @@ const mongoose = require('mongoose');
 
 const paymentSchema = new mongoose.Schema({
     resultInfo: {
-        resultStatus: {
+        resultStatus: { 
             type: String,
             required: true 
         }, 
