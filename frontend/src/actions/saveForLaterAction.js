@@ -8,7 +8,7 @@ export const saveForLater = (id) => async (dispatch, getState) => {
 
     dispatch({ 
         type: SAVE_FOR_LATER,
-        payload: product
+        payload: product 
     });
 
     localStorage.setItem('saveForLaterItems', JSON.stringify(getState().saveForLater.saveForLaterItems))
