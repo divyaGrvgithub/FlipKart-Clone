@@ -2,7 +2,7 @@ import { REMOVE_FROM_SAVE_FOR_LATER, SAVE_FOR_LATER } from "../constants/saveFor
 
 export const saveForLaterReducer = (state = { saveForLaterItems: [] }, { type, payload }) => {
     switch (type) {
-        case SAVE_FOR_LATER:
+        case SAVE_FOR_LATER: 
             const item = payload;
             const isItemExist = state.saveForLaterItems.find((i) => i.product === item.product);
             if (isItemExist) { 
