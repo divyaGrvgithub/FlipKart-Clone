@@ -5,7 +5,7 @@ import CartItem from './CartItem';
 import EmptyCart from './EmptyCart'; 
 import PriceSidebar from './PriceSidebar';
 import SaveForLaterItem from './SaveForLaterItem';
-
+ 
 const Cart = () => { 
 
     const navigate = useNavigate();
