@@ -3,7 +3,7 @@
     width: 47px;
     height: 104px;
     display: flex;
-    align-items: center;
+    align-items: center; 
     justify-content: center; 
     box-shadow: 0 8px 12px rgba(0,0,0,.2);
     background: #fcfcfc;
