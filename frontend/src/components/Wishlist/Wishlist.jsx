@@ -9,7 +9,7 @@ const Wishlist = () => {
     const { wishlistItems } = useSelector((state) => state.wishlist);
  
     return (
-        <>
+        <> 
             <MetaData title="Wishlist | Flipkart" />
 
             <MinCategory />
