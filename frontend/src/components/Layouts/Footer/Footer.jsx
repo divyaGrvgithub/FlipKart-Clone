@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react';
 import WorkIcon from '@mui/icons-material/Work';
 import StarsIcon from '@mui/icons-material/Stars';
 import CardGiftcardIcon from '@mui/icons-material/CardGiftcard';
-import HelpIcon from '@mui/icons-material/Help';
+import HelpIcon from '@mui/icons-material/Help'; 
 import paymentMethods from '../../../assets/images/payment-methods.svg'; 
 import { useLocation } from 'react-router-dom';
 
