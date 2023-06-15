@@ -4,7 +4,7 @@ import { Link, useNavigate, useLocation } from 'react-router-dom';
 import { useDispatch, useSelector } from 'react-redux';
 import { clearErrors, loginUser } from '../../actions/userAction';
 import { useSnackbar } from 'notistack';
-import BackdropLoader from '../Layouts/BackdropLoader';
+import BackdropLoader from '../Layouts/BackdropLoader'; 
 import MetaData from '../Layouts/MetaData'; 
 
 const Login = () => { 
