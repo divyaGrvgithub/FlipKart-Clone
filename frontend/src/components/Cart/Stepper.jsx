@@ -1,7 +1,7 @@
 import { useSelector } from 'react-redux';
 import CheckIcon from '@mui/icons-material/Check';
 
-const Stepper = ({ activeStep, children }) => { 
+const Stepper = ({ activeStep, children }) => {  
 
     const { user } = useSelector((state) => state.user);
     const { shippingInfo, cartItems } = useSelector((state) => state.cart);
