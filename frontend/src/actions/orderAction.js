@@ -6,7 +6,7 @@ export const newOrder = (order) => async (dispatch) => {
     try {
         dispatch({ type: NEW_ORDER_REQUEST });
   
-        const config = { 
+        const config = {  
             headers: {
                 "Content-Type": "application/json",
             },
