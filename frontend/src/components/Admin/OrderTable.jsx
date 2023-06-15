@@ -2,7 +2,7 @@ import { useEffect } from 'react';
 import { DataGrid } from '@mui/x-data-grid';
 import { useDispatch, useSelector } from 'react-redux';
 import { useSnackbar } from 'notistack'; 
-import { clearErrors, deleteOrder, getAllOrders } from '../../actions/orderAction';
+import { clearErrors, deleteOrder, getAllOrders } from '../../actions/orderAction'; 
 import { DELETE_ORDER_RESET } from '../../constants/orderConstants';
 import Actions from './Actions';
 import { formatDate } from '../../utils/functions';
