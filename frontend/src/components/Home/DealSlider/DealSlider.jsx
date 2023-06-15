@@ -2,7 +2,7 @@ import Product from './Product';
 import Slider from 'react-slick';
 import { NextBtn, PreviousBtn } from '../Banner/Banner';
 import { Link } from 'react-router-dom';
-import { offerProducts } from '../../../utils/constants'; 
+import { offerProducts } from '../../../utils/constants';  
 import { getRandomProducts } from '../../../utils/functions';
 
 export const settings = {
