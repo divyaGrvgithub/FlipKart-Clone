@@ -5,7 +5,7 @@ import { getAdminProducts } from '../../actions/productAction';
 import { useSelector, useDispatch } from 'react-redux';
 import { getAllOrders } from '../../actions/orderAction';
 import { getAllUsers } from '../../actions/userAction';
-import { categories } from '../../utils/constants';
+import { categories } from '../../utils/constants'; 
 import MetaData from '../Layouts/MetaData';
  
 const MainData = () => {
