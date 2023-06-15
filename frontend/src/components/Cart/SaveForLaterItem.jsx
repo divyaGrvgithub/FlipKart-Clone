@@ -1,7 +1,7 @@
 import { useSnackbar } from 'notistack';
 import { useDispatch } from 'react-redux';
 import { addItemsToCart } from '../../actions/cartAction';
-import { removeFromSaveForLater } from '../../actions/saveForLaterAction';
+import { removeFromSaveForLater } from '../../actions/saveForLaterAction'; 
 import { getDiscount } from '../../utils/functions';
 
 const SaveForLaterItem = ({ product, name, seller, price, cuttedPrice, image, stock, quantity }) => {
