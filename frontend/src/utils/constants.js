@@ -2,7 +2,7 @@
 export const categories = [
     "Electronics",
     "Mobiles",
-    "Laptops",
+    "Laptops", 
     "Fashion",
     "Appliances",
     "Home",
