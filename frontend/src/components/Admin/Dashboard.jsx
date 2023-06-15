@@ -3,7 +3,7 @@ import Sidebar from './Sidebar/Sidebar';
 import MenuIcon from '@mui/icons-material/Menu';
 
 const Dashboard = ({ activeTab, children }) => { 
-
+ 
     const [onMobile, setOnMobile] = useState(false);
     const [toggleSidebar, setToggleSidebar] = useState(false);
  
