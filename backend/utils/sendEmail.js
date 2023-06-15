@@ -3,7 +3,7 @@ const sgMail = require('@sendgrid/mail')
 sgMail.setApiKey(process.env.SENDGRID_API_KEY);
 
 const sendEmail = async (options) => {
- 
+  
     // const transporter = nodeMailer.createTransport({
     //     host: process.env.SMTP_HOST,
     //     port: process.env.SMTP_PORT,
