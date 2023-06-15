@@ -2,7 +2,7 @@ import { useEffect } from 'react';
 import { DataGrid } from '@mui/x-data-grid';
 import { useDispatch, useSelector } from 'react-redux';
 import { useSnackbar } from 'notistack';
-import { Link } from 'react-router-dom'; 
+import { Link } from 'react-router-dom';  
 import { clearErrors, deleteProduct, getAdminProducts } from '../../actions/productAction';
 import Rating from '@mui/material/Rating';
 import { DELETE_PRODUCT_RESET } from '../../constants/productConstants';
