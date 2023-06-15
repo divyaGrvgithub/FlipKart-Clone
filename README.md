@@ -72,7 +72,7 @@
 Clone the project
 
 ```bash
-  git clone https://github.com/divyaGrvgithub/Flipkart-MERN.git
+  git clone https://github.com/divyaGrvgithub/FLIPKART-MERN.git
 ```
 
 Go to the project directory
@@ -94,8 +94,6 @@ Start the server
 ```bash
   npm run start
 ```
-
-
 
 ## Environment Variables
 
