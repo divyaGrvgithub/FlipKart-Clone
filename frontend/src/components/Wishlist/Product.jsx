@@ -4,7 +4,7 @@ import DeleteIcon from '@mui/icons-material/Delete';
 import StarIcon from '@mui/icons-material/Star';
 import { removeFromWishlist } from '../../actions/wishlistAction';
 import { useDispatch } from 'react-redux';
-
+ 
 const Product = (props) => {
 
     const { product, name, price, cuttedPrice, image, ratings, reviews } = props;
