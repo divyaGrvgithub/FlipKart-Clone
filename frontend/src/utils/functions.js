@@ -2,7 +2,7 @@ export const getDiscount = (price, cuttedPrice) => {
     return (((cuttedPrice - price) / cuttedPrice) * 100).toFixed();
 }
 
-export const getDeliveryDate = () => {
+export const getDeliveryDate = () => { 
     const deliveryDate = new Date();
     deliveryDate.setDate(new Date().getDate() + 7) 
     return deliveryDate.toUTCString().substring(0, 11);
