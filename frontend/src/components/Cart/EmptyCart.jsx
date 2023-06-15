@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
 
-const EmptyCart = () => {
+const EmptyCart = () => { 
     return (
         <div className="flex items-center flex-col gap-2 m-6"> 
             <div className="w-52 h-44">
