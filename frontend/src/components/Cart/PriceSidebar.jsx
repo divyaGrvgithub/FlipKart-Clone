@@ -2,7 +2,7 @@
 const PriceSidebar = ({ cartItems }) => {
     return (
         <div className="flex sticky top-16 sm:h-screen flex-col sm:w-4/12 sm:px-1">
-
+ 
             {/* <!-- nav tiles --> */}  
             <div className="flex flex-col bg-white rounded-sm shadow">
                 <h1 className="px-6 py-3 border-b font-medium text-gray-500">PRICE DETAILS</h1>
