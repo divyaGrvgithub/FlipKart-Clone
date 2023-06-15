@@ -5,7 +5,7 @@ const cookieParser = require('cookie-parser');
 const fileUpload = require('express-fileupload'); 
 const errorMiddleware = require('./middlewares/error'); 
   
-const app = express();  
+const app = express();   
   
 // config  
 if (process.env.NODE_ENV !== 'production') { 
