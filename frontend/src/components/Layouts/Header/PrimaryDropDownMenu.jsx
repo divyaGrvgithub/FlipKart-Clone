@@ -1,6 +1,6 @@
 import React from 'react';
 import AccountCircleIcon from '@mui/icons-material/AccountCircle';
-import OfflineBoltIcon from '@mui/icons-material/OfflineBolt';
+import OfflineBoltIcon from '@mui/icons-material/OfflineBolt'; 
 import AddCircleIcon from '@mui/icons-material/AddCircle'; 
 import ShoppingBagIcon from '@mui/icons-material/ShoppingBag';
 import FavoriteIcon from '@mui/icons-material/Favorite';
