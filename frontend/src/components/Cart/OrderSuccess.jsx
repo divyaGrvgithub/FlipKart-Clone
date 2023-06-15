@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import { Link, useNavigate } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom'; 
 import MetaData from '../Layouts/MetaData';
 import successfull from '../../assets/images/Transaction/success.png'; 
 import failed from '../../assets/images/Transaction/failed.png';
