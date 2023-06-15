@@ -1,7 +1,7 @@
 import { useSnackbar } from 'notistack';
 import { useEffect, useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
-import { Link, useNavigate, useParams } from 'react-router-dom'; 
+import { Link, useNavigate, useParams } from 'react-router-dom';  
 import Slider from 'react-slick';
 import { clearErrors, getProductDetails, getSimilarProducts, newReview } from '../../actions/productAction';
 import { NextBtn, PreviousBtn } from '../Home/Banner/Banner';
