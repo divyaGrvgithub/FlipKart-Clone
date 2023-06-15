@@ -4,7 +4,7 @@ const MetaData = ({ title }) => {
     return (
         <Helmet> 
             <title>{title}</title>
-        </Helmet>
+        </Helmet> 
     );
 };
 
