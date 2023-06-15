@@ -2,7 +2,7 @@ import { ADD_TO_WISHLIST, REMOVE_FROM_WISHLIST } from "../constants/wishlistCons
 
 export const wishlistReducer = (state = { wishlistItems: [] }, { type, payload }) => {
     switch (type) { 
-        case ADD_TO_WISHLIST:
+        case ADD_TO_WISHLIST: 
             const item = payload;
             const itemExist = state.wishlistItems.find((i) => i.product === item.product);
 
