@@ -3,7 +3,7 @@ const states = [
       "code": "AN",
       "name": "Andaman and Nicobar Islands"
     },
-    {
+    { 
       "code": "AP",
       "name": "Andhra Pradesh"
     },
