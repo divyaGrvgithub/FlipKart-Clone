@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import Slider from 'react-slick';
 import { getRandomProducts } from '../../../utils/functions';
 import { settings } from '../DealSlider/DealSlider';
-import Product from './Product';
+import Product from './Product'; 
 
 const ProductSlider = ({ title, tagline }) => { 
  
