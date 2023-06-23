@@ -7,7 +7,7 @@ import {
   TableBody,
   TableRow,
   TableCell,
-} from "@material-ui/core";
+} from "@material-ui/core"; 
 import clsx from "clsx";
 import { LocalOffer as Badge } from "@material-ui/icons";
 
