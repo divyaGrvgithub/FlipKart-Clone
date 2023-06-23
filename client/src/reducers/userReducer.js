@@ -2,7 +2,7 @@ import * as actionType from "../action-type/userActionType";
 
 const initialState = {
   isLogin: true,
-  phoneNumber: "",
+  phoneNumber: "", 
   popupLogin: true,
   isModalOpen: false,
   OTPResult: {},
