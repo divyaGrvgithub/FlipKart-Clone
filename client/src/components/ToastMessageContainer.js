@@ -3,7 +3,7 @@ import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.min.css";
 
 function ToastMessageContainer() {
-  return (
+  return ( 
     <ToastContainer bodyStyle={{ fontSize: 16 }} style={{ width: "27%", minWidth:300  }} />
   );
 }
