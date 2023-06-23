@@ -12,7 +12,7 @@ export const addToWishlist = (item) => async (dispatch, getState) => {
     } catch (error) {}
   }
   dispatch({
-    type: actionType.ADD_TO_WISHLIST,
+    type: actionType.ADD_TO_WISHLIST, 
     payload: {
       item,
     },
