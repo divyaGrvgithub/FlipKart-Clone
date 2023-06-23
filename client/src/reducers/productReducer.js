@@ -1,6 +1,6 @@
 import * as actionType from "../action-type/productActionType";
 
-const initialState = {
+const initialState = { 
   products: [],
   product: {},
 };
