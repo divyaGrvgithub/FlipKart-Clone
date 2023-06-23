@@ -2,7 +2,7 @@ import * as actionType from "../action-type/cartActionType";
 
 const initialState = {
   cartItems: [],
-  stateChangeNotifyCounter: 1,
+  stateChangeNotifyCounter: 1, 
 };
 
 const cartReducer = (state = initialState, action) => {
