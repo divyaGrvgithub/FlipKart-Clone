@@ -4,7 +4,7 @@ const authentication = async () => {
   try {
     const { data } = await axios.get("/accounts/authentication", {
       withCredentials: true,
-    });
+    }); 
     return {
       isAuth: data.isAuthenticate,
       user: data.user,
