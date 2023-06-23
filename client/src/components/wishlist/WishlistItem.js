@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import { Box, makeStyles, Typography } from "@material-ui/core";
-import DeleteIcon from "@material-ui/icons/Delete";
+import DeleteIcon from "@material-ui/icons/Delete"; 
 import StarIcon from "@material-ui/icons/Star";
 
 import { makeShortText } from "../../utils/makeShortText";
