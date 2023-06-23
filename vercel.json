@@ -7,7 +7,7 @@
       },
       {
         "src": "./client/build",   
-        "use": "@vercel/static"
+        "use": "@vercel/static" 
       }
     ],
 
