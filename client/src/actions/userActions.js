@@ -8,7 +8,7 @@ export const setIsLogin = (isLogin) => ({
 });
 
 export const setMobileNumber = (phoneNumber) => ({
-  type: actionType.SET_MOBILE_NUMBER,
+  type: actionType.SET_MOBILE_NUMBER, 
   payload: {
     phoneNumber,
   },
