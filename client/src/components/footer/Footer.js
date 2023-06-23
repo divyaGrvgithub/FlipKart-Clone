@@ -6,7 +6,7 @@ const useStyles = makeStyles({
     margin: "20px 0px 10px 0px",
     padding: 20,
     backgroundColor: "#F2F2F2",
-    textAlign: "center",
+    textAlign: "center", 
     color: "#1D1C1C",
   },
   text: {
