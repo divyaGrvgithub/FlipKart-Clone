@@ -2,7 +2,7 @@ import { Card, makeStyles, Box, Typography, Button } from "@material-ui/core";
 import { Link } from "react-router-dom";
 import clsx from "clsx";
 
-import { makeShortText } from "../../utils/makeShortText";
+import { makeShortText } from "../../utils/makeShortText"; 
 import { fassured } from "../../constants/data";
 
 import GroupButton from "./GroupButton";
