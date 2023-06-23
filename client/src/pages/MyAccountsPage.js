@@ -6,7 +6,7 @@ import { useSelector } from "react-redux";
 import Wishlist from "../components/wishlist/Wishlist";
 import Sidebar from "../components/account/Sidebar";
 import PersonalInfo from "../components/account/PersonalInfo";
-import ManageAddresses from "../components/address/ManageAddresses";
+import ManageAddresses from "../components/address/ManageAddresses"; 
 import LoaderSpinner from "../components/LoaderSpinner";
 import ToastMessageContainer from "../components/ToastMessageContainer";
 
