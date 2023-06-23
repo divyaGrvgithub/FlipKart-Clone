@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import axios from "../../adapters/axios";
 import OtpInput from "react-otp-input";
-import { useHistory } from "react-router-dom";
+import { useHistory } from "react-router-dom"; 
 
 import { makeStyles } from "@material-ui/styles";
 import { Button, CircularProgress, Link } from "@material-ui/core";
