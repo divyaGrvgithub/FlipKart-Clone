@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import { Box, Typography } from "@material-ui/core";
 import { useDispatch, useSelector } from "react-redux";
 
-import { makeStyles } from "@material-ui/styles";
+import { makeStyles } from "@material-ui/styles"; 
 
 import { getWishlistItems } from "../../actions/wishlistActions";
 import { emptyWishlist } from "../../constants/data";
