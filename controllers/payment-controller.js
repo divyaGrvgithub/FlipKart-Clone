@@ -6,7 +6,7 @@ require("dotenv").config({ path: "./.env" });
 
 const hostName = process.env.HOST_NAME;
 
-const paytmGatway = async (req, res) => {
+const paytmGatway = async (req, res) => { 
   try {
     let paytmMerchantkey = process.env.MERCHANT_KEY;
     let paytmParams = {};
