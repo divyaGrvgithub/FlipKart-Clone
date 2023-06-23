@@ -12,7 +12,7 @@ const useStyle = makeStyles({
   },
   button: {
     borderRadius: "50%",
-  },
+  }, 
 });
 
 const GroupedButton = ({ product }) => {
