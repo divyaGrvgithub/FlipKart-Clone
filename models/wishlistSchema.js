@@ -5,7 +5,7 @@ const wishlistSchema = mongoose.Schema({
     type: mongoose.Schema.ObjectId,
     required: true,
   },
-  productId: {
+  productId: { 
     type: mongoose.Schema.ObjectId,
     required: true,
   },
