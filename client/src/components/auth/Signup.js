@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { useSelector } from "react-redux";
 
 import SignupStep1 from "./SignupStep1";
-import SignupStep2 from "./SignupStep2";
+import SignupStep2 from "./SignupStep2"; 
 import OTPVerify from "./OTPVerify";
 
 function Signup() {
