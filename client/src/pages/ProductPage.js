@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import { Box, Typography, makeStyles, Grid } from "@material-ui/core";
 import StarIcon from "@material-ui/icons/Star";
 import { useDispatch, useSelector } from "react-redux";
-import { useParams } from "react-router";
+import { useParams } from "react-router"; 
 
 import { getProductById } from "../actions/productActions";
 import { fassured } from "../constants/data";
