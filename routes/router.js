@@ -3,7 +3,7 @@ const {
   getProducts,
   getProductById,
   addProduct,
-  getProductsByCategory,
+  getProductsByCategory, 
 } = require("../controllers/product-controller");
 const {
   addItem,
