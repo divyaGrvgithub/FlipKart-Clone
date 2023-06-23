@@ -8,7 +8,7 @@ import toastMessage from "../../utils/toastMessage";
 
 const useStyles = makeStyles((theme) => ({
   card: {
-    color: "#2874f0",
+    color: "#2874f0", 
     padding: "16px",
     border: "1px solid #e0e0e0",
     background: "#fff",
