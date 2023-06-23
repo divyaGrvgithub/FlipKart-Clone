@@ -5,7 +5,7 @@ const initialState = {
 };
 
 const wishlistReducer = (state = initialState, action) => {
-  switch (action.type) {
+  switch (action.type) { 
     case actionType.ADD_TO_WISHLIST:
       const item = action.payload.item;
       const isExist = state.wishlistItems.find(
