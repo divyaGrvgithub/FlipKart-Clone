@@ -4,7 +4,7 @@ const Wishlist = require("../models/wishlistSchema");
 const addItem = async (req, res) => {
   try {
     const wishlist = new Wishlist(req.body);
-    await wishlist.save();
+    await wishlist.save(); 
     res.send();
   } catch (error) {
     console.log(error);
