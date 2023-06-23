@@ -3,7 +3,7 @@ import { Box, makeStyles, Typography, Button, Grid } from "@material-ui/core";
 import { useEffect } from "react";
 import { useSelector, useDispatch } from "react-redux";
 
-import { getOrderDetails } from "../actions/orderActions";
+import { getOrderDetails } from "../actions/orderActions"; 
 
 import OrderRow from "../components/product/OrderRow";
 import LoaderSpinner from "../components/LoaderSpinner";
