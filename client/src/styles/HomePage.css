@@ -1,6 +1,6 @@
 .first_productRow{
     display:flex;
-    align-items: center;
+    align-items: center; 
     width: 100%;
 }
 .ads_banner{
