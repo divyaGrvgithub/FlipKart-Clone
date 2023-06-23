@@ -2,7 +2,7 @@ import * as actionType from "../action-type/cartActionType";
 import axios from "../adapters/axios";
 
 export const addToCart = (item) => async (dispatch, getState) => {
-  const { isAuthenticate, user } = getState().userReducer;
+  const { isAuthenticate, user } = getState().userReducer; 
   const { cartItems } = getState().cartReducer;
 
   const existItem = cartItems.find((product) => product._id === item._id);
