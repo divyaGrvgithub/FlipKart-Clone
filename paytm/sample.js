@@ -5,7 +5,7 @@ var PaytmChecksum = require("./PaytmChecksum");
 var paytmParams = {};
 
 /* Generate Checksum via Array */
-
+ 
 /* initialize an array */
 paytmParams["MID"] = "YOUR_MID_HERE";
 paytmParams["ORDERID"] = "YOUR_ORDER_ID_HERE";
