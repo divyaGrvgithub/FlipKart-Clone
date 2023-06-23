@@ -4,7 +4,7 @@ import { isDesktop} from 'react-device-detect';
 //Custom import
 import Header from "./components/header/Header";
 
-import HomePage from "./pages/HomePage";
+import HomePage from "./pages/HomePage"; 
 import ErrorPage from "./pages/ErrorPage";
 import AuthPage from "./pages/AuthPage";
 import CartPage from "./pages/CartPage";
