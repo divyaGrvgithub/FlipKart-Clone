@@ -7,7 +7,7 @@ const useStyle = makeStyles({
   banner: {
     margin: "20px 10px 0px 10px",
     minWidth:960,
-  },
+  }, 
   banner_img: {
     width: "100%",
     height: 280,
