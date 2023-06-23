@@ -3,7 +3,7 @@ import { useSelector } from "react-redux";
 
 import { emptyCartUrl } from "../../constants/data";
 
-const useStyle = makeStyles((theme) => ({
+const useStyle = makeStyles((theme) => ({ 
   component: {
     width: "80%",
     minWidth: 500,
