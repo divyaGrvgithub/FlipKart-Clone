@@ -2,7 +2,7 @@ import * as actionType from "../action-type/addressActionType";
 
 const initialState = {
   openAddAddress: false,
-  addresses: [],
+  addresses: [], 
 };
 
 const addressReducer = (state = initialState, action) => {
