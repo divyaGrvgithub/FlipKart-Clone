@@ -5,7 +5,7 @@ export const setOrderItems = (cartItems) => {
   let orderItems = [];
   if (cartItems) {
     cartItems.map((item) => {
-      orderItems.push({
+      orderItems.push({ 
         productId: item._id,
         qty: item.qty,
         price: item.price?.cost,
