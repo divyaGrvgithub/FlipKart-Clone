@@ -3,7 +3,7 @@ import { createTheme, ThemeProvider } from "@material-ui/core/styles";
 
 const TemplateContext = createContext();
 
-const TemplateProvider = ({ children }) => {
+const TemplateProvider = ({ children }) => { 
   const theme = createTheme({
     overrides: {
       MuiDialog:{
