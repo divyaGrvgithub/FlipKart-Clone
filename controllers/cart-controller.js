@@ -4,7 +4,7 @@ const Cart = require("../models/cartSchema");
 const addItem = async (req, res) => {
   try {
     const cart = new Cart(req.body);
-    await cart.save();
+    await cart.save(); 
     res.send();
   } catch (error) {
     console.log(error);
