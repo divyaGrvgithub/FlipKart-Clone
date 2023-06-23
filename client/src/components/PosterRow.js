@@ -9,7 +9,7 @@ const useStyle = makeStyles((theme) => ({
 }));
 
 function PosterRow({ imgUrls = [] }) {
-  const classes = useStyle();
+  const classes = useStyle(); 
   return (
     <Grid container className={classes.component}>
       {imgUrls.map((url, index) => (
