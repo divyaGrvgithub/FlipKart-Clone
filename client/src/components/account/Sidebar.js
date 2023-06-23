@@ -7,7 +7,7 @@ import {
   Box,
   Divider,
   makeStyles,
-  Typography,
+  Typography, 
 } from "@material-ui/core";
 
 import clsx from "clsx";
