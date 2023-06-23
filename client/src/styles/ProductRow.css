@@ -4,7 +4,7 @@
     object-fit: contain;
     margin:15px auto;
     transition: transform 200ms ease-in-out;
-}
+} 
 
 .product_img:hover{
     transform: scale(1.1);
