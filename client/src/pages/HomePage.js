@@ -5,7 +5,7 @@ import { Box, makeStyles } from "@material-ui/core";
 import Navbar from "../components/Navbar";
 import HomeBanner from "../components/header/HomeBanner";
 import PosterRow from "../components/PosterRow";
-import FeaturedBrandsRow from "../components/FeaturedBrandsRow";
+import FeaturedBrandsRow from "../components/FeaturedBrandsRow"; 
 import ProductRow from "../components/product/ProductRow";
 import Footer from "../components/footer/Footer";
 
