@@ -7,7 +7,7 @@ const addNewAddress = async (req, res) => {
   try {
     const address = new Address(newAddress);
     await address.save();
-    res.send();
+    res.send(); 
   } catch (error) {
     console.log(error);
     res.status(500).send();
