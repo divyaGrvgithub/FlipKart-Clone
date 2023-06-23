@@ -7,7 +7,7 @@ const useStyle = makeStyles((theme) => ({
   itemRow: {
     padding: "25px 35px",
     margin: "16px 0",
-    background: "#fff",
+    background: "#fff", 
     boxShadow: "0 -2px 10px 0 rgb(0 0 0 / 10%)",
     borderTop: "1px solid #f0f0f0",
     justifyContent: "space-between",
