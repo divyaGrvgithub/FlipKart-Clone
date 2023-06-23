@@ -6,7 +6,7 @@ export const getProducts = () => async (dispatch) => {
     const { data } = await axios.get("/products/get-products");
     dispatch({
       type: actionType.GET_PRODUCTS,
-      payload: {
+      payload: { 
         products: data,
       },
     });
