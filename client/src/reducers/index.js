@@ -5,7 +5,7 @@ import storage from "redux-persist/lib/storage";
 import userReducer from "./userReducer";
 import productReducer from "./productReducer";
 import cartReducer from "./cartReducer";
-import wishlistReducer from "./wishlistReducer";
+import wishlistReducer from "./wishlistReducer"; 
 import addressReducer from "./addressReducer";
 import orderReducer from "./orderReducer";
 
