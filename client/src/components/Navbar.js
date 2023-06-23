@@ -6,7 +6,7 @@ import { navData } from "../constants/data";
 
 const useStyle = makeStyles({
   navbar: {
-    minWidth:960,
+    minWidth:960, 
     display: "flex",
     justifyContent: "space-between",
     padding: "10px 10%",
