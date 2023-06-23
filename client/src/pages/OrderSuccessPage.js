@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import { Button } from "@material-ui/core";
-import { Link, useHistory } from "react-router-dom";
+import { Link, useHistory } from "react-router-dom"; 
 import successImg from '../assets/success.png'
 
 function OrderSuccessPage() {
