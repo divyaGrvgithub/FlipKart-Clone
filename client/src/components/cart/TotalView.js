@@ -6,7 +6,7 @@ import clsx from "clsx";
 
 import { setTotalAmount } from "../../actions/orderActions";
 
-const useStyle = makeStyles({
+const useStyle = makeStyles({ 
   header: {
     padding: "15px 24px",
     background: "#fff",
