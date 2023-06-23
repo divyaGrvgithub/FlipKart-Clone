@@ -4,7 +4,7 @@ import { useHistory } from "react-router-dom";
 import { Box, Divider, makeStyles, Typography } from "@material-ui/core"; 
 import Menu from "@material-ui/core/Menu";
 import MenuItem from "@material-ui/core/MenuItem";
-import ExpandMoreIcon from "@material-ui/icons/ExpandMore";
+import ExpandMoreIcon from "@material-ui/icons/ExpandMore"; 
 import PowerSettingsNewIcon from "@material-ui/icons/PowerSettingsNew";
 import AccountCircleIcon from "@material-ui/icons/AccountCircle";
 import FavoriteIcon from "@material-ui/icons/Favorite";
