@@ -8,7 +8,7 @@ function ErrorPage() {
       style={{
         textAlign: "center",
         fontSize: "14px",
-        padding: "20px",
+        padding: "20px", 
         marginTop: "100px",
       }}
     >
