@@ -1,7 +1,7 @@
 import * as actionType from "../action-type/orderActionType";
 
 const initialState = {
-  orderItems: [],
+  orderItems: [], 
   addressId: "",
   totalAmount: 0,
   orderDetails: [],
