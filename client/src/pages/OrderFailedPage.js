@@ -9,7 +9,7 @@ function OrderFailedPage() {
       history.replace("/");
     }, 30000);
   }, []);
-
+ 
   const history = useHistory();
 
   return (
