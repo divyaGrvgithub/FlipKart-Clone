@@ -3,7 +3,7 @@ import * as actionType from "../action-type/addressActionType";
 
 export const updateAddrComState = (newState) => ({
   type: actionType.UPDATE_ADDRESS_COMPONENT_STATE,
-  payload: {
+  payload: { 
     newState,
   },
 });
