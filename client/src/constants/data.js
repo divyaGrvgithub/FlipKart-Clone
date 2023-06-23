@@ -2,7 +2,7 @@ export const navData = [
   {
     url: "https://rukminim1.flixcart.com/flap/128/128/image/e2b2795ad9e97a57.png?q=100",
     text: "Mobiles",
-    href: "mobiles",
+    href: "mobiles", 
   },
   {
     url: "https://rukminim1.flixcart.com/flap/128/128/image/5c44091c4cde5527.png?q=100",
